@@ -1,0 +1,66 @@
+//Animations
+//FadeIn
+.fadein {
+    animation: FadeIn 1.5s;
+}
+
+@keyframes FadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+//FadeIn From Left
+.fadeinleft {
+    animation: FadeInLeft 1.5s;
+}
+
+@keyframes FadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-30rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+//FadeIn From Right
+.fadeinright {
+    animation: FadeInRight 1.5s;
+}
+
+@keyframes FadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(+30rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+//Fade Out Right
+.fadeoutright {
+    animation: FadeOutRight 1.5s;
+}
+
+@keyframes FadeOutRight {
+    0% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(+30rem);
+    }
+}

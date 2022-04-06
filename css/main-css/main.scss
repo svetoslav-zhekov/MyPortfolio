@@ -1,0 +1,174 @@
+@import '../utilities/variables.scss';
+
+//Variables For Easy Access
+$nav-circle-size: 4rem;
+
+//Html Media Queries
+html {
+    //On Screen Size Change, Change Font Size, With It Document Scales (Based On REM Units, HTML Font Size)
+    @media screen and (min-width: $screen-rrsm) { 
+        font-size: 5px;
+    }
+
+    @media screen and (min-width: $screen-rsm) { 
+        font-size: 6.5px;
+    }
+
+    @media screen and (min-width: $screen-sm) { 
+        font-size: 8px;
+    }
+
+    @media screen and (min-width: $screen-md) { 
+        font-size: 9px;
+    }
+
+    @media screen and (min-width: $screen-lg) { 
+        font-size: 11px;
+    }
+
+    @media screen and (min-width: $screen-xl) { 
+        font-size: 13px;
+    }
+
+    @media screen and (min-width: $screen-xxl) { 
+        font-size: 13px;
+    }
+}
+
+//Body Properties
+body {
+    background-color: $main-color;
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+
+//Scrollbar Properties
+::-webkit-scrollbar {
+    width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+    margin-block: 1rem;
+    border-radius: 20rem;
+    background-color: $main-element-color;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 20rem;
+    margin-block: 1rem;
+    margin-inline: 1rem;
+    background-color: $secondary-element-color;
+}
+
+//Scrollbar For Firefox
+@supports (scrollbar-color: red blue) {
+    * {
+        scrollbar-color: $secondary-element-color $main-element-color;
+        scrollbar-width: 1rem;
+    }
+}
+
+//Nav Menu Properties
+#nav-menu {
+    text-align: center;
+
+    //The Images Act As Buttons
+    .nav-menu-buttons {
+        width: $nav-circle-size;
+        height: $nav-circle-size;
+        border-radius: 50%;
+        background-color: $main-element-color;
+        z-index: 98;
+        position: fixed;
+        right: 0 !important;
+        top: 0 !important;
+        margin-right: 2rem;
+        margin-top: 2rem;
+        padding: 1rem;
+        cursor: pointer;
+        transition: transform .2s; /* Animation On Hover */
+    }
+
+    .nav-menu-buttons:hover {
+        transform: scale(1.2); /* Animation On Hover */
+    }
+
+    //Setting Up Flexible Menu Container
+    #nav-menu-container {
+        display: none;
+        background-color: $main-color-with-opacity;
+        z-index: 99;
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+
+        //Navigation List Properties
+        #nav-menu-list {
+            list-style-type: none;
+            padding: 0;
+            width: fit-content;
+
+            //Center In Middle Of Div/Screen
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            
+            .nav-menu-li-buttons {
+                font-family: $header-font;
+                background: none;
+                border: none;
+                font-size: 6.5rem;
+                color: $main-element-color;
+                transition: transform .2s; /* Animation On Hover */
+
+                .nav-menu-word-span {
+                    transition: all .5s;
+                }
+            }
+
+            .nav-menu-li-buttons:hover {
+                cursor: pointer;
+                transform: scale(1.2);
+
+                //On Button Hover, Activate Text Effect
+                .nav-menu-word-span {
+                    text-shadow:
+                        0 0.5rem 0 $secondary-element-color,
+                        0.5rem 0 0 $secondary-element-color,
+                        0.5rem 0.5rem 0.5rem $secondary-element-color;
+                }
+            }
+        }
+    }
+}
+
+//Page Seperators
+.page-separators {
+    background-color: $main-element-color;
+    height: 0.5vh;
+    width: 100vw;
+}
+
+//Copyright Section
+#copyright-section {
+    text-align: center;
+    padding: 0;
+
+    #copyright-section-container {
+        color: $main-element-color;
+        font-family: $header-font;
+        padding: 0;
+        margin: auto;
+        width: fit-content;
+
+        #copyright-section-header {
+            margin: 1rem;
+            font-size: 2rem;
+        }
+    }
+}

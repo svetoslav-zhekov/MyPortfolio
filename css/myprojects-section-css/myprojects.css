@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+#myprojects-section {
+  text-align: center;
+  margin-bottom: 30vh;
+}
+
+#myprojects-section #myprojects-section-container {
+  font-family: "Fugaz One", cursive;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #ECECEC;
+  margin: auto;
+}
+
+#myprojects-section #myprojects-section-container #myprojects-section-header {
+  text-decoration: overline;
+  -webkit-text-decoration-color: #7000FF;
+          text-decoration-color: #7000FF;
+  margin: 0;
+  margin-bottom: 4vh;
+  padding: 0.5rem;
+  font-size: 6rem;
+  visibility: hidden;
+}
+
+#myprojects-section #myprojects-section-container #projects {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 4vh;
+  width: 100vw;
+  clear: both;
+  visibility: hidden;
+}
+
+#myprojects-section #myprojects-section-container #projects #project-one {
+  display: inline-block;
+  background-color: #ECECEC;
+  padding: 0.5rem;
+  margin: 2rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+#myprojects-section #myprojects-section-container #projects #project-one #project-one-img {
+  width: 50rem;
+  height: 40rem;
+}
+
+#myprojects-section #myprojects-section-container #projects #project-two {
+  display: inline-block;
+  background-color: #ECECEC;
+  padding: 0.5rem;
+  margin: 2rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+#myprojects-section #myprojects-section-container #projects #project-two #project-two-img {
+  width: 50rem;
+  height: 40rem;
+}
+
+#myprojects-section #myprojects-section-container #projects-more {
+  display: inline-block;
+  margin: 0;
+  margin-left: 6rem;
+  margin-right: 6rem;
+  padding: 1.5em;
+  font-family: "Roboto", sans-serif;
+  text-align: justify;
+  font-size: 3rem;
+  visibility: hidden;
+}
+
+#myprojects-section #myprojects-section-container #projects-more #projects-more-link {
+  color: #7000FF;
+}
+/*# sourceMappingURL=myprojects.css.map */

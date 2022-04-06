@@ -1,0 +1,48 @@
+@import '../utilities/variables.scss';
+
+//Variables For Easy Acess
+$image-size: 35rem;
+
+#aboutme-section {
+    text-align: center;
+    margin-bottom: $section-bot-margin;
+
+    #aboutme-section-container {
+        font-family: $header-font;
+        width: fit-content;
+        color: $main-element-color;
+        margin: auto;
+
+        #aboutme-section-header {
+            text-decoration: overline;
+            text-decoration-color: $secondary-element-color;
+            margin: 0;
+            margin-bottom: 4vh;
+            padding: 0.5rem;
+            font-size: 6rem;
+            visibility: hidden;
+        }
+
+        #aboutme-section-img {
+            margin: 0;
+            padding: 0.5em;
+            background-color: $main-element-color;
+            width: $image-size;
+            height: $image-size;
+            border-radius: 25em;
+            margin-bottom: 4vh;
+            visibility: hidden;
+        }
+
+        #aboutme-section-info {
+            font-family: $info-font;
+            text-align: justify;
+            margin: 0;
+            margin-left: 6rem;
+            margin-right: 6rem;
+            padding: 1.5em;
+            font-size: $info-font-size;
+            visibility: hidden;
+        }
+    }
+}

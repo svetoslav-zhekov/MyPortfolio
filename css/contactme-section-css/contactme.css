@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+#contactme-section {
+  text-align: center;
+  height: 100vh;
+}
+
+#contactme-section #contactme-section-container {
+  font-family: "Fugaz One", cursive;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #ECECEC;
+  margin: auto;
+}
+
+#contactme-section #contactme-section-container #contactme-section-header {
+  text-decoration: overline;
+  -webkit-text-decoration-color: #7000FF;
+          text-decoration-color: #7000FF;
+  padding: 0.5rem;
+  margin: 0;
+  margin-bottom: 4vh;
+  font-size: 6rem;
+  visibility: hidden;
+}
+
+#contactme-section #contactme-section-container #contactme-text {
+  padding: 1rem;
+  margin: 0;
+  margin-left: 6rem;
+  margin-right: 6rem;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+  visibility: hidden;
+}
+
+#contactme-section #contactme-section-container #contactme-socials {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 4vh;
+  width: 100vw;
+  visibility: hidden;
+}
+
+#contactme-section #contactme-section-container #contactme-socials .contactme-links {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 20%;
+  background-color: #ECECEC;
+  padding: 1rem;
+  margin: 2vh;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+  /* Animation On Hover */
+}
+
+#contactme-section #contactme-section-container #contactme-socials .contactme-links:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  /* Animation On Hover */
+}
+/*# sourceMappingURL=contactme.css.map */

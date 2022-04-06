@@ -1,0 +1,80 @@
+@import '../utilities/variables.scss';
+
+//Variables For Easy Acess
+$projects-size: 40rem;
+$blur-var: 10px;
+
+#myprojects-section {
+    text-align: center;
+    margin-bottom: $section-bot-margin;
+
+    #myprojects-section-container {
+        font-family: $header-font;
+        width: fit-content;
+        color: $main-element-color;
+        margin: auto;
+
+        #myprojects-section-header {
+            text-decoration: overline;
+            text-decoration-color: $secondary-element-color;
+            margin: 0;
+            margin-bottom: 4vh;
+            padding: 0.5rem;
+            font-size: 6rem;
+            visibility: hidden;
+        }
+        
+        #projects {
+            padding: 0;
+            margin: 0;
+            margin-bottom: 4vh;
+            width: 100vw;
+            clear: both;
+            visibility: hidden;
+
+            #project-one {
+                display: inline-block;
+                background-color: $main-element-color;
+                padding: 0.5rem;
+                margin: 2rem;
+                width: fit-content;
+                height: fit-content;
+    
+                #project-one-img {
+                    width: $projects-size+10rem;
+                    height: $projects-size;
+                }
+            }
+    
+            #project-two {
+                display: inline-block;
+                background-color: $main-element-color;
+                padding: 0.5rem;
+                margin: 2rem;
+                width: fit-content;
+                height: fit-content;
+    
+                #project-two-img {
+                    width: $projects-size+10rem;
+                    height: $projects-size;
+                }
+            }
+        }
+        
+        #projects-more {
+            display: inline-block;
+            margin: 0;
+            margin-left: 6rem;
+            margin-right: 6rem;
+            padding: 1.5em;
+            font-family: $info-font;
+            text-align: justify;
+            font-size: $info-font-size;
+            visibility: hidden;
+
+            #projects-more-link {
+                color: $secondary-element-color;
+            }
+        }
+    }
+}

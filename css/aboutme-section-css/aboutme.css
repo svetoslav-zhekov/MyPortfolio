@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+#aboutme-section {
+  text-align: center;
+  margin-bottom: 30vh;
+}
+
+#aboutme-section #aboutme-section-container {
+  font-family: "Fugaz One", cursive;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #ECECEC;
+  margin: auto;
+}
+
+#aboutme-section #aboutme-section-container #aboutme-section-header {
+  text-decoration: overline;
+  -webkit-text-decoration-color: #7000FF;
+          text-decoration-color: #7000FF;
+  margin: 0;
+  margin-bottom: 4vh;
+  padding: 0.5rem;
+  font-size: 6rem;
+  visibility: hidden;
+}
+
+#aboutme-section #aboutme-section-container #aboutme-section-img {
+  margin: 0;
+  padding: 0.5em;
+  background-color: #ECECEC;
+  width: 35rem;
+  height: 35rem;
+  border-radius: 25em;
+  margin-bottom: 4vh;
+  visibility: hidden;
+}
+
+#aboutme-section #aboutme-section-container #aboutme-section-info {
+  font-family: "Roboto", sans-serif;
+  text-align: justify;
+  margin: 0;
+  margin-left: 6rem;
+  margin-right: 6rem;
+  padding: 1.5em;
+  font-size: 3rem;
+  visibility: hidden;
+}
+/*# sourceMappingURL=aboutme.css.map */

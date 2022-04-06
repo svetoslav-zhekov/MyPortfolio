@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+#hero-section {
+  height: 100vh;
+  text-align: center;
+}
+
+#hero-section #hero-section-container {
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: "Fugaz One", cursive;
+  color: #ECECEC;
+}
+
+#hero-section #hero-section-container .hero-section-greetings {
+  margin: 0;
+}
+
+#hero-section #hero-section-container #hero-section-welcome {
+  font-size: 10rem;
+  display: none;
+}
+
+#hero-section #hero-section-container #hero-section-hello {
+  font-size: 12rem;
+  display: none;
+}
+/*# sourceMappingURL=hero.css.map */

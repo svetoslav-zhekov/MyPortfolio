@@ -1,0 +1,31 @@
+//Global Variables For Easy Access
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+//All Colors Used In The Site
+$main-color: #232431;
+$main-color-with-opacity: rgba(35, 36, 49, 0.9);
+$main-element-color: #ECECEC;
+$secondary-element-color: #7000FF;
+
+//Sections Height
+$sections-height: 100vh;
+
+//Sections Bottom-margin
+$section-bot-margin: 30vh;
+
+//Fonts
+$header-font: 'Fugaz One', cursive;
+$info-font: 'Roboto', sans-serif;
+
+//Info Text Size
+$info-font-size: 3rem;
+
+//Screen Sizes
+$screen-rrsm: 250px; //Smartphones
+$screen-rsm: 320px; //Smartphones
+$screen-sm: 480px; //Smartphones Again
+$screen-md: 600px; //Tablets
+$screen-lg: 800px; //Tablets, Lo-res Desktops/Laptops
+$screen-xl: 1025px; //Big Talets, Desktops/Laptops
+$screen-xxl: 1280px; //Hi-res Desktops/Laptops

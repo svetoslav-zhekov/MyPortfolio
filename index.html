@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Svetoslav Zhekov</title>
+    <!-- JQuery 3.6.0 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/main-css/main.css">
+    <link rel="stylesheet" href="css/hero-section-css/hero.css">
+    <link rel="stylesheet" href="css/aboutme-section-css/aboutme.css">
+    <link rel="stylesheet" href="css/myprojects-section-css/myprojects.css">
+    <link rel="stylesheet" href="css/contactme-section-css/contactme.css">
+    <!-- CSS Utilities -->
+    <link rel="stylesheet" href="css/utilities/animations.css">
+</head>
+<body>
+    <!-- Nav-Menu Properties -->
+    <div id="nav-menu">
+        <img id="nav-menu-open" class="nav-menu-buttons" src="images/hamburger.svg" draggable="false" alt="Open Navigation Menu"/>
+        <div id="nav-menu-container" class="nav-container">
+            <img id="nav-menu-close" class="nav-menu-buttons" src="images/close_hamburger.svg" draggable="false" alt="Close Navigation Menu"/>
+
+            <!-- Nav Menu List Containing The Nav Buttons (With Spans For Additional Text Effects On Hover) -->
+            <ul id="nav-menu-list">
+                <li class="nav-menu-list-items">
+                    <button id="nav-menu-aboutme" class="nav-menu-li-buttons">About <span class="nav-menu-word-span">Me</span></button>
+                </li>
+                <li class="nav-menu-list-items">
+                    <button id="nav-menu-myprojects" class="nav-menu-li-buttons"><span class="nav-menu-word-span">My</span> Projects</button>
+                </li> 
+                <li class="nav-menu-list-items">
+                    <button id="nav-menu-contactme" class="nav-menu-li-buttons">Contact <span class="nav-menu-word-span">Me</span></button>
+                </li>  
+            </ul>
+        </div>
+    </div>
+
+    <!-- Hero Section Properties -->
+    <section id="hero-section">
+        <div id="hero-section-container">
+            <h1 id="hero-section-hello" class="hero-section-greetings">Hello!</h1>
+            <h1 id="hero-section-welcome" class="hero-section-greetings">Welcome!</h1>
+        </div>
+    </section>
+
+    <!-- AboutMe Section Properties -->
+    <section id="aboutme-section">
+        <div id="aboutme-section-container">
+            <h1 id="aboutme-section-header">About Me</h1>
+            <img id="aboutme-section-img" draggable="false" src="images/me.jpg"/>
+            <p id="aboutme-section-info">My name is Svetoslav Zhekov, Im a university student studying Software Engineering, 
+                my main field of knowledge is developing .NET applications, my other programming experiences include 
+                Python, Java, JavaScript and a couple of more.
+            </p>
+        </div>
+    </section>
+
+    <!-- My Projects Section Properties -->
+    <section id="myprojects-section">
+        <div id="myprojects-section-container">
+            <h1 id="myprojects-section-header">My Projects</h1>
+            <div id="projects">
+                <div id="project-one">
+                    <img id="project-one-img" src="images/project1.png"/>
+                </div>
+                <div id="project-two">
+                    <img id="project-two-img" src="images/project2.png"/>
+                </div>
+            </div>
+            <p id="projects-more">All of my projects, you can find by clicking 
+                <a id="projects-more-link" href="https://github.com/svetoslav-zhekov">here</a> or 
+                by going in the Contact Me section and click the Github icon.
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Me Section Properties -->
+    <section id="contactme-section">
+        <div id="contactme-section-container">
+            <h1 id="contactme-section-header">Contact Me</h1>
+            <p id="contactme-text">You can find me at these social medias: </p>
+            <div id="contactme-socials">
+                <img id="contactme-github" class="contactme-links" src="images/github.svg" draggable="false" alt="Take Me To Github"/>
+                <img id="contactme-linkedin" class="contactme-links" src="images/linkedin.svg" draggable="false" alt="Take Me To LinkedIn"/> 
+            </div>
+        </div>
+    </section>
+
+    <!-- Separator -->
+    <div class="page-separators"></div>
+
+    <!-- Copyright Section -->
+    <section id="copyright-section">
+        <div id="copyright-section-container">
+            <h2 id="copyright-section-header">Created & Built by Svetoslav Zhekov</h2>
+        </div>
+    </section>
+
+    <!-- JavaScript Files -->
+    <script src="javascript/nav-menu.js"></script>
+    <script src="javascript/main.js"></script>
+    <script src="javascript/contactme-section.js"></script>
+</body>
+</html>

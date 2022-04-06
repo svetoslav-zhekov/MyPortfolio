@@ -1,0 +1,60 @@
+@import '../utilities/variables.scss';
+
+//Variables For Easy Acess
+$links-circle-size: 4rem;
+
+#contactme-section {
+    text-align: center;
+    height: $sections-height;
+
+    #contactme-section-container {
+        font-family: $header-font;
+        width: fit-content;
+        color: $main-element-color;
+        margin: auto;
+
+        #contactme-section-header {
+            text-decoration: overline;
+            text-decoration-color: $secondary-element-color;
+            padding: 0.5rem;
+            margin: 0;
+            margin-bottom: 4vh;
+            font-size: 6rem;
+            visibility: hidden;
+        }
+
+        #contactme-text {
+            padding: 1rem;
+            margin: 0;
+            margin-left: 6rem;
+            margin-right: 6rem;
+            text-align: center;
+            font-family: $info-font;
+            font-size: $info-font-size;
+            visibility: hidden;
+        }
+
+        #contactme-socials {
+            padding: 0;
+            margin: 0;
+            margin-bottom: 4vh;
+            width: 100vw;
+            visibility: hidden;
+
+            .contactme-links {
+                width: $links-circle-size;
+                height: $links-circle-size;
+                border-radius: 20%;
+                background-color: $main-element-color;
+                padding: 1rem;
+                margin: 2vh;
+                cursor: pointer;
+                transition: transform .2s; /* Animation On Hover */
+            }
+    
+            .contactme-links:hover {
+                transform: scale(1.2); /* Animation On Hover */
+            }
+        }
+    }
+}
