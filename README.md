@@ -1,5 +1,5 @@
 # MyPortfolio
-My simple portfolio, include information about myself and my projects.
+My simple portfolio, includes information about myself and my projects.
 
 Link to my portfolio: [https://svetoslav-zhekov.github.io/MyPortfolio/](https://svetoslav-zhekov.github.io/MyPortfolio/)
 
