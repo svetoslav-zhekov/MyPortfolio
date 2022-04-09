@@ -78,6 +78,10 @@
   padding: 1.5em;
   font-family: "Roboto", sans-serif;
   text-align: justify;
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
+  text-justify: distribute;
   font-size: 3rem;
   visibility: hidden;
 }

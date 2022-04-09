@@ -37,6 +37,8 @@ $image-size: 35rem;
         #aboutme-section-info {
             font-family: $info-font;
             text-align: justify;
+            hyphens: auto;
+            text-justify: distribute;
             margin: 0;
             margin-left: 6rem;
             margin-right: 6rem;

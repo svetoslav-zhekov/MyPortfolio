@@ -39,6 +39,10 @@
 #aboutme-section #aboutme-section-container #aboutme-section-info {
   font-family: "Roboto", sans-serif;
   text-align: justify;
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
+  text-justify: distribute;
   margin: 0;
   margin-left: 6rem;
   margin-right: 6rem;

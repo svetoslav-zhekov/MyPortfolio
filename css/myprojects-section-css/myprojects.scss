@@ -69,6 +69,8 @@ $blur-var: 10px;
             padding: 1.5em;
             font-family: $info-font;
             text-align: justify;
+            hyphens: auto;
+            text-justify: distribute;
             font-size: $info-font-size;
             visibility: hidden;
 
