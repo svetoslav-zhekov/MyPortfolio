@@ -6,6 +6,6 @@ $(document).ready(function() {
     });
 
     $("#contactme-linkedin").click(function() {
-        location.href = 'https://www.linkedin.com/in/svetoslav-z-1b1699224/';
+        location.href = 'https://www.linkedin.com/in/svetoslav-zhekov-1b1699224/';
     });
 });
