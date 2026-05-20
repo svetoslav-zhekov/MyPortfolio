@@ -42,13 +42,17 @@
   visibility: hidden;
 }
 
+#contactme-section #contactme-section-container #contactme-socials a u {
+  text-decoration: none;
+}
+
 #contactme-section #contactme-section-container #contactme-socials .contactme-links {
   width: 4rem;
   height: 4rem;
   border-radius: 20%;
   background-color: #ECECEC;
   padding: 1rem;
-  margin: 2vh;
+  margin: 2vh 2vh 0vh 0vh;
   cursor: pointer;
   -webkit-transition: -webkit-transform .2s;
   transition: -webkit-transform .2s;
