@@ -1,4 +1,5 @@
 //On Load
+/*
 $(document).ready(function() {
     //On Click Go To Link
     $("#contactme-github").click(function() {
@@ -9,3 +10,4 @@ $(document).ready(function() {
         location.href = 'https://www.linkedin.com/in/svetoslav-zhekov-1b1699224/';
     });
 });
+*/
