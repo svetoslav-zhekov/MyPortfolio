@@ -41,13 +41,17 @@ $links-circle-size: 4rem;
             width: 100vw;
             visibility: hidden;
 
+            a, u {
+                text-decoration: none;
+            }
+            
             .contactme-links {
                 width: $links-circle-size;
                 height: $links-circle-size;
                 border-radius: 20%;
                 background-color: $main-element-color;
                 padding: 1rem;
-                margin: 2vh;
+                margin: 2vh 2vh 0vh 0vh;
                 cursor: pointer;
                 transition: transform .2s; /* Animation On Hover */
             }
